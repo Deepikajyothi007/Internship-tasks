@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Styling and Validation</title>
+    <link rel="stylesheet" href="styles03.css">
+</head>
+<body>
+    
+    <h1>Feedback  Form</h1>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="name" required>
+        <span class="error" id="nameError"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email"required>
+        <span class="error" id="emailError"></span>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="subject" required>
+        <span class="error" id="subjectError"></span>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Enter a message"required></textarea>
+        <span class="error" id="messageError"></span>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script02.js"></script>
+</body>
+</html>

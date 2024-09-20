@@ -1,0 +1,18 @@
+img{
+    max-width:100%;
+    display:block;
+    height:auto;
+  
+  
+  }
+  body{
+    background-color:tan;
+  }
+
+
+  /* Use of media query to make the webpage responsive.Adjusts layouts and element size for different screen sizes,ensuring readability and usability*/
+  @media screen and (max-width:992px){  
+    body{
+        background-color:rgb(212, 212, 227)
+    }
+  }
